@@ -1,0 +1,14 @@
+Package: simulide-bionic
+Version: 0.3.10
+Installed-Size: 14092
+Maintainer: Arcachofo <simulide.blogspot.com>
+Section: science
+Architecture: all
+Priority: optional
+Conflicts: simulide
+Depends: libqt5serialport5, libqt5script5, libqt5multimedia5
+Homepage: https://simulide.blogspot.com
+Description: Real Time Electronic Circuit Simulator.
+ Include PIC, AVR and Arduino simulation. Code Editor & Debugger for Arduino, GcBasic, PIC asm, AVR asm.
+ .
+ Features: Analog and Digital components. Microcontrollers. Editor / Debugger. Subcircuits. Oscilloscope. Signal Plotter. Serial Port Connection. Serial Monitor.
