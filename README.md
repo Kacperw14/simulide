@@ -9,4 +9,4 @@ SimulIDE is a Real Time Electronic Circuit Simulator. With PIC, AVR and Arduino 
 
 Versão: 0.3.10
 
-[Baixe o pacote Debian aqui!]()
+[Download the Debian package here!](https://github.com/appsedu/simulide-bionic/releases/download/0.3.10/simulide-bionic_0.3.10_all.deb)
