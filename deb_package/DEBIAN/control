@@ -1,9 +1,9 @@
-Package: simulide-bionic
-Version: 0.3.11
-Installed-Size: 14092
+Package: simulide
+Version: 0.3.12
+Installed-Size: 14674
 Maintainer: Arcachofo <simulide.blogspot.com>
 Section: science
-Architecture: all
+Architecture: amd64
 Priority: optional
 Conflicts: simulide
 Depends: libqt5serialport5, libqt5script5, libqt5multimedia5, libqt5xml5

@@ -30,9 +30,10 @@ while read USUARIO; do
 	runuser -l $USUARIO -c \
 	"ln -s /usr/share/simulide/examples /home/$USUARIO/SimulIDE\ Examples"
 
-	geraShort /tmp/simulide-bionic/simulide-bionic.desktop \
-	/home/$USUARIO/.local/share/applications/simulide-bionic.desktop \
-	> /home/$USUARIO/Desktop/simulide-bionic.desktop
+	# geraShort /tmp/simulide-bionic/simulide-bionic.desktop \
+	# /home/$USUARIO/.local/share/applications/simulide-bionic.desktop \
+	# > /home/$USUARIO/Desktop/simulide-bionic.desktop
+	cp /home/$USUARIO/.local/share/applications/simulide-bionic.desktop /home/$USUARIO/Desktop/simulide-bionic.desktop
 
 	runuser -l $USUARIO -c "rm -rf /home/$USUARIO/.cache/"
 	if [ -f /usr/bin/lxpanelctl ]; then
