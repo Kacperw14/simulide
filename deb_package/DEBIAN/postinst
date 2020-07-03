@@ -7,7 +7,7 @@ while read USUARIO; do
 	runuser -l $USUARIO -c \
 	"ln -s /usr/share/simulide/examples /home/$USUARIO/SimulIDE\\ Examples"
 
-	cp /usr/share/applications/simulide-bionic.desktop /home/$USUARIO/Desktop/simulide-bionic.desktop
+	cp /usr/share/applications/simulide.desktop /home/$USUARIO/Desktop/simulide.desktop
 
 	runuser -l $USUARIO -c "rm -rf /home/$USUARIO/.cache/"
 	if [ -f /usr/bin/lxpanelctl ]; then
